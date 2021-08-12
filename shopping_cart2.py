@@ -9,7 +9,7 @@ def shoppingcart():
             itemprice = input("Price of that item: ")
             cart[itemkey] = itemprice
             command = input('Would you like to continue shopping? (Yes or no)')
-            if command.lower() == 'no':
+            if command.lower() == 'no': # Do this if command input is 'no'
                 print('Thanks for Shopping! Your Cart: ')
                 return
         elif command.lower() == 'show': # Do this if command input is 'show'
